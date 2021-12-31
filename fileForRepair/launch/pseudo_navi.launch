@@ -1,0 +1,7 @@
+<launch>
+    <group ns="rapa">
+        <node pkg="pseudo_slam_2021_rapa" type="parking.py" name="parking"/>
+        <node pkg="pseudo_slam_2021_rapa" type="qr.py" name="qr"/>
+        <node pkg="pseudo_slam_2021_rapa" type="relay.py" name="relay"/>         
+    </group>
+</launch>
